@@ -32,6 +32,59 @@
         font-size: 40px;
         margin: 0;
     }
-    
+    .banner-img{
+        width: 100%;
+        padding: 10px;
+        
     }
-}
+    .banner-img img{
+        height: 500px;
+        width:400px ;
+    }
+    .card{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .game-poster{
+        flex-direction: column;
+        align-items: center;
+    }
+    .poster-text{
+        width: 95%;
+        padding: 20px;
+        text-align: center;
+    }
+    .poster-img {
+        width: 100%;
+        margin: 0 auto;
+       
+    }
+    .poster-img img{
+        height: 350px;
+        width:250px;
+        object-fit: cover;
+    }
+    .menu-container{
+        min-height: 400px;
+        max-width: 100%;
+        padding: 0px;  
+    }
+    .menus{
+        flex-basis: 50px;
+    }
+    footer{
+        padding: 20px;
+    }
+    .footer-logo p .service  .icon a{
+        padding: 0px;
+    }
+    .icon a {
+        font-size: 20px;
+        padding: 0 15px;
+    }
+    .service a{
+        padding: 0 5px;
+    }
+    .Privacy-Policy a{
+        padding: 5px 10px;
+    }
+    }
