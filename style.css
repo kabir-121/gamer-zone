@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav-area {
+    min-height: 60px;
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.logo-title img {
+    width: 65px;
+    height: 30px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.logo-title p {
+    font-size: 40px;
+}
+
+.G {
+    color: crimson;
+}
+
+.menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.follow-btn {
+    background-color: rgba(222, 235, 236, 0.975);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+/* banner section */
+.banner {
+    max-width: 1280px;
+    min-width: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.banner-text-container {
+    width: 50%;
+    background-image: url(images/Group\ 14.png);
+    background-size: 100%;
+}
+
+.banner-txt {
+    text-align: left;
+    padding: 150px 200px 100px 100px;
+}
+
+.banner-txt h3 {
+    font-size: 40px;
+}
+
+.banner-txt h1 {
+    font-size: 55px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-txt p {
+    font-size: 20px;
+}
+
+.sign-in {
+    font-size: 20px;
+    background-color: coral;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.Go-Rogue {
+    font-size: 20px;
+    background-color: rgb(69, 164, 231);
+    padding: 10px 20px;
+    border-radius: 15px;
+
+}
+
+.banner-img {
+    width: 50%;
+}
+
+/* game-card */
+.game-card{
+    min-width: 50px;
+    max-width: 1280px;
+    margin: 0 auto 50px;
+}
+.card-text{
+    text-align: center;
+}
+.card-text h1{
+    font-size: 40px;
+}
+.card-text span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card-text p{
+    font-size: 20px;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    width: 80%;
+    margin: 0 auto;
+}
+.card img{
+    height: 350px;
+    width: 290px;
+}
+/* game-poster */
+
+.game-poster{
+    min-width: 50px;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.poster-text{
+    width: 50%;
+    text-align: right;
+    padding: 200px 150px 100px 200px;
+}
+.poster-text h1{
+    font-size: 40px;
+}
+.poster-text h1 span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.poster-img{
+    width: 50%;
+   
+}
+.big-poster{
+    width: 600px;
+    height: 570px;
+    object-fit: cover;
+    margin-right: 0px;
+}
+.inner-img img{
+    height: 230px;
+    width: 200px;
+}
+.inner-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 200px;
+    right: 300px;
+}
