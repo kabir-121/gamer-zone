@@ -44,8 +44,12 @@
 
 .follow-btn {
     background-color: rgba(222, 235, 236, 0.975);
-    padding: 10px 20px;
+    padding: 0px 20px;
     border-radius: 20px;
+}
+
+.fa-youtube {
+    padding: 20px;
 }
 
 /* banner section */
@@ -86,16 +90,19 @@
 
 .sign-in {
     font-size: 20px;
-    background-color: coral;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     padding: 10px 20px;
-    border-radius: 15px;
+    border-radius: 25px;
+    border: 0;
 }
 
 .Go-Rogue {
     font-size: 20px;
-    background-color: rgb(69, 164, 231);
+    border-radius: 48px;
+    background: #4EC5F7;
     padding: 10px 20px;
-    border-radius: 15px;
+    border-radius: 25px;
+    border: 0;
 
 }
 
@@ -104,79 +111,182 @@
 }
 
 /* game-card */
-.game-card{
+.game-card {
     min-width: 50px;
     max-width: 1280px;
     margin: 0 auto 50px;
 }
-.card-text{
+
+.card-text {
     text-align: center;
 }
-.card-text h1{
+
+.card-text h1 {
     font-size: 40px;
 }
-.card-text span{
+
+.card-text span {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.card-text p{
+
+.card-text p {
     font-size: 20px;
 }
-.card{
+
+.card {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 15px;
     width: 80%;
     margin: 0 auto;
 }
-.card img{
+
+.card img {
     height: 350px;
     width: 290px;
 }
+
 /* game-poster */
 
-.game-poster{
+.game-poster {
     min-width: 50px;
     max-width: 1280px;
     margin: 0 auto;
     display: flex;
 }
 
-.poster-text{
+.poster-text {
     width: 50%;
     text-align: right;
     padding: 200px 150px 100px 200px;
 }
-.poster-text h1{
+
+.poster-text h1 {
     font-size: 40px;
 }
-.poster-text h1 span{
+
+.poster-text h1 span {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.poster-img{
+
+.poster-img {
     width: 50%;
-   
+
 }
-.big-poster{
+
+.big-poster {
     width: 600px;
     height: 570px;
     object-fit: cover;
     margin-right: 0px;
 }
-.inner-img img{
+
+.inner-img img {
     height: 230px;
     width: 200px;
 }
-.inner-img{
+
+.inner-img {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     bottom: 200px;
     right: 300px;
+}
+
+/* ....menu-container.... */
+.menu-container {
+    max-width: 1280px;
+    min-width: 50px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin: 0 auto;
+    padding: 100px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.menus {
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    flex-basis: 180px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menus img {
+    height: 50px;
+    width: 50px;
+}
+
+.menus a {
+    text-decoration: none;
+    color: black;
+}
+
+/* footer section.... */
+footer {
+    text-align: center;
+    min-width: 50px;
+    max-width: 1280px;
+    background-color: black;
+    padding: 50px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo img {
+    width: 65px;
+    height: 30px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.footer-logo p {
+    font-size: 50px;
+}
+
+.service a {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+
+.icon {
+    padding: 20px;
+}
+
+.icon a {
+    font-size: 30px;
+    padding: 20px;
+}
+
+.Privacy-Policy {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+
+.Privacy-Policy a {
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(176, 175, 175);
+}
+
+footer p {
+    color: darkgray;
 }
