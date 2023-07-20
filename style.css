@@ -155,6 +155,7 @@
 .card img {
     height: 350px;
     width: 290px;
+    object-fit: cover;
 }
 
 /* game-poster */
@@ -230,6 +231,12 @@
     flex-basis: 180px;
     align-items: center;
     justify-content: space-evenly;
+    /* height: 70px; */
+}
+.menus:hover{
+    border: 2px solid red;
+    /* background-color: #6209f0;   */
+    color: #F948B2;
 }
 
 .menus img {
@@ -237,10 +244,7 @@
     width: 50px;
 }
 
-.menus a {
-    text-decoration: none;
-    color: black;
-}
+
 
 /* footer section.... */
 footer{
@@ -249,7 +253,7 @@ footer{
     max-width: 1280px;
     margin: 0 auto 0;
     background-color: black;
-    padding: 50px;
+    /* padding: 50px; */
 }
 
 .footer-logo {

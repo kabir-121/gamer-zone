@@ -82,13 +82,13 @@
         min-height: 400px;
         max-width: 100%;
         padding: 0px;
-        gap: 50px;  
     }
     .menus{
         flex-basis: 50px;
     }
-    .menus a{
-        font-size: 14px;
+    .menus p{
+        font-size: 12px;
+        /* font-weight: normal; */
     }
     .menus img{
         height: 40px;
@@ -96,6 +96,7 @@
     }
     footer{
         padding: 20px;
+        width: 100%;
     }
     .footer-logo p .service  .icon a{
         padding: 0px;
