@@ -75,16 +75,24 @@
     width: 130px;
     }
     .inner-img{
-        bottom: 50px;
-    right: 150px;
+        bottom: 90px;
+    right: 140px;
     }
     .menu-container{
         min-height: 400px;
         max-width: 100%;
-        padding: 0px;  
+        padding: 0px;
+        gap: 50px;  
     }
     .menus{
         flex-basis: 50px;
+    }
+    .menus a{
+        font-size: 14px;
+    }
+    .menus img{
+        height: 40px;
+        width: 40px;
     }
     footer{
         padding: 20px;
