@@ -44,24 +44,39 @@
     .card{
         grid-template-columns: repeat(1, 1fr);
     }
+    .card-text h1{
+       font-size: 28px; 
+    }
+    .card-text p{
+        font-size: 18px;
+    }
     .game-poster{
         flex-direction: column;
         align-items: center;
     }
     .poster-text{
-        width: 95%;
+        width: 100%;
         padding: 20px;
         text-align: center;
     }
+    
     .poster-img {
         width: 100%;
         margin: 0 auto;
        
     }
     .poster-img img{
-        height: 350px;
-        width:250px;
+        height: 450px;
+        width:350px;
         object-fit: cover;
+    }
+    .inner-img img{
+        height: 150px;
+    width: 130px;
+    }
+    .inner-img{
+        bottom: 50px;
+    right: 150px;
     }
     .menu-container{
         min-height: 400px;
